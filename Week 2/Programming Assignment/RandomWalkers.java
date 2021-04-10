@@ -27,14 +27,15 @@ public class RandomWalkers {
             while ((Math.abs(x) + Math.abs(y)) != r) {
                 steps++;
                 n = Math.random();
-                if (n < 0.25)
+                if (n < 0.25) {
                     x++;
-                else if (n < 0.5)
+                } else if (n < 0.5) {
                     x--;
-                else if (n < 0.75)
+                } else if (n < 0.75) {
                     y++;
-                else if (n < 1)
+                } else if (n < 1) {
                     y--;
+                }
             }
             avgSteps += steps;
         }

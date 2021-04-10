@@ -25,14 +25,15 @@ public class RandomWalker {
             steps++;
             System.out.println("(" + x + ", " + y + ")");
             n = Math.random();
-            if (n < 0.25)
+            if (n < 0.25) {
                 x++;
-            else if (n < 0.5)
+            } else if (n < 0.5) {
                 x--;
-            else if (n < 0.75)
+            } else if (n < 0.75) {
                 y++;
-            else if (n < 1)
+            } else if (n < 1) {
                 y--;
+            }
         }
         System.out.println("(" + x + ", " + y + ")");
         System.out.println("steps = " + steps);
