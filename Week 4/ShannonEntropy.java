@@ -34,6 +34,6 @@ public class ShannonEntropy {
             }
         }
         StdOut.printf("%.4f", h);
-        System.out.println("\n");
+        StdOut.println("\n");
     }
 }
