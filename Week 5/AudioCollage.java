@@ -80,8 +80,8 @@ public class AudioCollage {
     // Returns a new array that changes the speed by the given factor.
     public static double[] changeSpeed(double[] a, double alpha) {
         double[] b = new double[(int) (a.length / alpha)];
-        for (int i = 0; i < a.length / alpha; i++) {
-            b[i] = a[((int) (i * alpha))];
+        for (int i = 0; i < b.length; i++) {
+            b[i] = a[(int) (Math.floor(i * alpha))];
         }
         return b;
     }

@@ -53,6 +53,9 @@ public class Divisors {
     // Returns the number of integers between 1 and n that are
     // relatively prime with n.
     public static int totient(int n) {
+        if (n <= 0) {
+            return 0;
+        }
         int result = 1;
         for (int i = 2; i < n; i++) {
             if (gcd(i, n) == 1) {
