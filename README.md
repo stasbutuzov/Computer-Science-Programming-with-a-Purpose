@@ -9,16 +9,16 @@ Course does not assume earn a certificate upon completion.
 
 ---
 #### Programming assignments specifications
-- [<ins>Week 1</ins>](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php)
-- [<ins>Week 2</ins>](https://coursera.cs.princeton.edu/introcs/assignments/loops/specification.php)
-- [<ins>Week 3</ins>](https://coursera.cs.princeton.edu/introcs/assignments/arrays/specification.php)
-- [<ins>Week 4</ins>](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php)
-- [<ins>Week 5</ins>](https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php)
-- [<ins>Week 6</ins>](https://coursera.cs.princeton.edu/introcs/assignments/recursion/specification.php)
-- [<ins>Week 7</ins>](https://coursera.cs.princeton.edu/introcs/assignments/performance/specification.php)
-- [<ins>Week 8</ins>](https://coursera.cs.princeton.edu/introcs/assignments/oop1/specification.php)
-- [<ins>Week 9</ins>](https://coursera.cs.princeton.edu/introcs/assignments/oop2/specification.php)
-- [<ins>Week 10</ins>](https://coursera.cs.princeton.edu/introcs/assignments/barchart/specification.php)
+- [<ins>Week 1</ins>](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php) – **Hello, World**
+- [<ins>Week 2</ins>](https://coursera.cs.princeton.edu/introcs/assignments/loops/specification.php) – **Loops and Conditionals**
+- [<ins>Week 3</ins>](https://coursera.cs.princeton.edu/introcs/assignments/arrays/specification.php) – **Arrays**
+- [<ins>Week 4</ins>](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php) – **Input and Output**
+- [<ins>Week 5</ins>](https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php) – **Functions**
+- [<ins>Week 6</ins>](https://coursera.cs.princeton.edu/introcs/assignments/recursion/specification.php) – **Recursion**
+- [<ins>Week 7</ins>](https://coursera.cs.princeton.edu/introcs/assignments/performance/specification.php) – **Performance**
+- [<ins>Week 8</ins>](https://coursera.cs.princeton.edu/introcs/assignments/oop1/specification.php) – **Using Data Types**
+- [<ins>Week 9</ins>](https://coursera.cs.princeton.edu/introcs/assignments/oop2/specification.php) – **Creating Data Types**
+- [<ins>Week 10</ins>](https://coursera.cs.princeton.edu/introcs/assignments/barchart/specification.php) – **Bar Chart Racer**
 
 ---
 #### Notes
