@@ -18,7 +18,7 @@ public class Birthday {
         int n = Integer.parseInt(args[0]);
         int trials = Integer.parseInt(args[1]);
 
-        int[] count = new int[n];
+        int[] count = new int[n + 2];
         double fraction = 0;
         int sum = 0;
 
@@ -37,7 +37,7 @@ public class Birthday {
             }
         }
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i < n + 1; i++) {
             sum += count[i - 1];
             fraction = (double) sum / trials;
             System.out.println(i + "\t" + count[i - 1] + "\t" + fraction);
