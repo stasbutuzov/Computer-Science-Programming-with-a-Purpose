@@ -19,10 +19,10 @@ public class Inversions {
 
     // Return the number of inversions in the permutation a[].
     public static long count(int[] a) {
-        int inversion = 0;
+        long inversion = 0;
         for (int i = 0; i < a.length; i++) {
             for (int j = i + 1; j < a.length; j++) {
-                if ((i < j) && (a[i] > a[j])) {
+                if (a[i] > a[j]) {
                     inversion++;
                 }
             }

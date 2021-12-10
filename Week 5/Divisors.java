@@ -41,7 +41,7 @@ public class Divisors {
         if (gcd(a, b) == 0) {
             return 0;
         } else {
-            return (Math.abs(a) * Math.abs(b)) / gcd(a, b);
+            return (Math.abs(a) / gcd(a, b) * Math.abs(b));
         }
     }
 

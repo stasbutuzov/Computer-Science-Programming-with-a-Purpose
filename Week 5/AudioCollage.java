@@ -32,12 +32,11 @@ public class AudioCollage {
 
     // Returns a new array that is the reverse of a[].
     public static double[] reverse(double[] a) {
-        for (int i = 0; i < a.length / 2; i++) {
-            double temp = a[a.length - i - 1];
-            a[a.length - i - 1] = a[i];
-            a[i] = temp;
+        double[] b = new double[a.length];
+        for (int i = 0; i < a.length; i++) {
+            b[a.length - i - 1] = a[i];
         }
-        return a;
+        return b;
     }
 
     // Returns a new array that is the concatenation of a[] and b[].
@@ -96,10 +95,12 @@ public class AudioCollage {
         double[] sample4 = StdAudio.read("singer.wav");
         double[] sample5 = StdAudio.read("chimes.wav");
 
-        StdAudio.play(amplify(sample2, alpha));
-        StdAudio.play(reverse(sample5));
-        StdAudio.play(merge(sample2, sample1));
-        StdAudio.play(mix(sample1, sample4));
-        StdAudio.play(changeSpeed(sample3, alpha));
+        double[] collage1 = amplify(sample2, alpha);
+        double[] collage2 = reverse(sample5);
+        double[] collage3 = merge(sample2, sample1);
+        double[] collage4 = mix(sample1, sample4);
+        double[] collage5 = changeSpeed(sample3, alpha);
+
+        StdAudio.play(collage5);
     }
 }

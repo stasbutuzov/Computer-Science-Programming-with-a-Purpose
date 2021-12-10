@@ -19,31 +19,31 @@ public class Birthday {
         int trials = Integer.parseInt(args[1]);
 
         int[] count = new int[n + 2];
-        double fraction = 0;
-        int sum = 0;
 
         for (int i = 0; i < trials; i++) {
-            int people = 0;
+            int people = 1;
             boolean[] hasBirthday = new boolean[n];
-            while (people < n) {
+            boolean found = false;
+            while (!found) {
                 int birthday = (int) (Math.random() * n);
-                people++;
                 if (hasBirthday[birthday]) {
-                    count[people - 1]++;
-                    break;
+                    count[people]++;
+                    found = true;
                 } else {
                     hasBirthday[birthday] = true;
+                    people++;
                 }
             }
         }
 
-        for (int i = 1; i < n + 1; i++) {
-            sum += count[i - 1];
+        int i = 1;
+        int sum = 0;
+        double fraction = 0;
+        while (fraction < 0.5) {
+            sum += count[i];
             fraction = (double) sum / trials;
-            System.out.println(i + "\t" + count[i - 1] + "\t" + fraction);
-            if (fraction >= 0.5) {
-                break;
-            }
+            System.out.println(i + "\t" + count[i] + "\t" + fraction);
+            i++;
         }
     }
 }
