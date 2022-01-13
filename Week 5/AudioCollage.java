@@ -8,7 +8,7 @@ Specification details:
 https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php
 FAQ:
 https://coursera.cs.princeton.edu/introcs/assignments/functions/faq.php#
-Samlples of WAV files:
+Samples of WAV files:
 https://coursera.cs.princeton.edu/introcs/assignments/functions/files/
 The input and output standard libraries developed for this course:
 https://introcs.cs.princeton.edu/java/stdlib/
