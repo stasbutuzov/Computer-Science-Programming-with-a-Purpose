@@ -28,3 +28,7 @@ All samples of code had been writing in programming environment by Princeton Uni
 - [<ins>macOS</ins>](https://lift.cs.princeton.edu/java/mac/)
 - [<ins>Windows</ins>](https://lift.cs.princeton.edu/java/windows/)
 - [<ins>Linux</ins>](https://lift.cs.princeton.edu/java/linux/)
+
+---
+#### Accomplishments
+[![Accomplishments](cs-programming-java_grades_stasbutuzov.png)](https://www.dropbox.com/s/x3tdymv1bbo3fst/cs-programming-java_grades_full_stasbutuzov.png?dl=0) 
