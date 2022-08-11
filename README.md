@@ -1,6 +1,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/stasbutuzov/Computer-Science-Programming-with-a-Purpose?color=blue&label=Java&logo=Java&logoColor=red&style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/stasbutuzov/Computer-Science-Programming-with-a-Purpose?color=blue&label=Code%20Size&style=flat-square) 
-[![Created Badge](https://badges.pufler.dev/created/stasbutuzov/Computer-Science-Programming-with-a-Purpose?color=blue&label=Created&logoColor=red&style=flat-square)](https://github.com/stasbutuzov/Computer-Science-Programming-with-a-Purpose)
+[![Created Badge](https://badges.strrl.dev/created/stasbutuzov/Computer-Science-Programming-with-a-Purpose?color=blue&label=Created&logoColor=red&style=flat-square)](https://github.com/stasbutuzov/Computer-Science-Programming-with-a-Purpose)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stasbutuzov/Computer-Science-Programming-with-a-Purpose?color=blue&label=Last%20Commit&style=flat-square)
 ### Overview
 Repository contains solutions to programming assignments for the course **"Computer Science: Programming with a Purpose"**.  
@@ -31,4 +31,4 @@ All samples of code had been writing in programming environment by Princeton Uni
 
 ---
 #### Accomplishments
-[![Accomplishments](cs-programming-java_grades_stasbutuzov.png)](https://www.dropbox.com/s/x3tdymv1bbo3fst/cs-programming-java_grades_full_stasbutuzov.png?dl=0) 
+[![Accomplishments](cs-programming-java_grades_stasbutuzov.png)](https://raw.githubusercontent.com/stasbutuzov/Computer-Science-Programming-with-a-Purpose/main/cs-programming-java_grades_full_stasbutuzov.png)
